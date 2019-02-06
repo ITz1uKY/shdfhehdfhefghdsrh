@@ -1,6 +1,6 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
-const prefix = '=';
+const prefix = 'O';
 
  
  
@@ -91,7 +91,7 @@ if (message.content.startsWith(adminprefix + 'setavatar')) {
 
 
 
-client.login(BOT_TOKEN);
+client.login(process.env.BOT_TOKEN);
 
 
  
